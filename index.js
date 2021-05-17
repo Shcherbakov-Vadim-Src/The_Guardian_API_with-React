@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
 import './style.css';
+import Fetch from './components/Fetch'; 
 
 
-class App extends Component {
+function App() {
 
-    render () {
-        return (
-            <div>
-                <p>Hello!</p>
-            </div>
-        )
-    }
+    return (<div>
+                <Fetch />
+            </div>);
 }
 
 
