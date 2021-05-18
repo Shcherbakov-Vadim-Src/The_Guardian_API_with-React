@@ -40,19 +40,23 @@ export default function Fetch() {
     };
     
     function onHandlerValuePolitics() {
-        setValue('Politics')
+        setValue('Politics');
+        setNumberPages(1);
     };
 
     function onHandlerValueCovid() {
-        setValue('Covid')
+        setValue('Covid');
+        setNumberPages(1);
     };
 
     function onHandlerValueRussia() {
-        setValue('Russia')
+        setValue('Russia');
+        setNumberPages(1);
     };
 
     function onHandlerValueFootball() {
-        setValue('Football')
+        setValue('Football');
+        setNumberPages(1);
     };
 
     return (
